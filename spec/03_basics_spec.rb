@@ -11,16 +11,17 @@ describe 'who is the biggest number' do
   end
 end
 
+
 describe 'crazy stuff on strings' do
   # Reverse, upcase then removes all L, T and A.
   # Hint: google ruby string
-  it 'does crazy stuff on strings' do
-    expect(reverse_upcase_noLTA("Tries this at Home, Kids"))
+ it 'does crazy stuff on strings' do
+   expect(reverse_upcase_noLTA("Tries this at Home, Kids"))
       .to eq("SDIK ,EMOH  SIH SEIR")
-    expect(reverse_upcase_noLTA("Ponies loves carrots"))
+   expect(reverse_upcase_noLTA("Ponies loves carrots"))
       .to eq("SORRC SEVO SEINOP")
-    expect(reverse_upcase_noLTA("qwertyuiopasdfghjkl;zxcvbn"))
-      .to eq("NBVCXZ;KJHGFDSPOIUYREWQ")
+   expect(reverse_upcase_noLTA("qwertyuiopasdfghjkl;zxcvbn"))
+     .to eq("NBVCXZ;KJHGFDSPOIUYREWQ")
   end
 end
 
@@ -41,9 +42,9 @@ end
 describe 'crazy stuff on arrays' do
   # The magic_array function takes an array of number or an array of
   # array of number as parameter and return the same array :
-  # - flattened (i.e. no more arrays in array)
-  # - sorted
-  # - with each number multiplicated by 2
+  # - flattened (i.e. no more arrays in array) OK
+  # - sorted OK
+  # - with each number multiplicated by 2 OK
   # - with each multiple of 3 removed
   # - with each number duplicate removed (any number should appear only once)
   # - sorted
